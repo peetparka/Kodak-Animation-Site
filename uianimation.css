@@ -1,0 +1,46 @@
+body {
+    background-color: #444444;
+}
+.exit {
+    width: 3%;
+}
+.text {
+    margin-top: 4%;
+    font-family: inconsolata;
+    margin-bottom: 10%;
+    color:floralwhite;
+    letter-spacing: 2px;
+    line-height: 50px;
+    text-align: center;
+    
+}
+.text span {
+    border-bottom: 2px solid floralwhite;
+    padding-bottom: 3%;
+}
+.ani {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-left: 17%;   
+}
+.one img {
+   width:60% ;
+   
+}
+.two img {  
+   width:60% ;
+}
+footer {
+    margin-top: 10%;
+  
+}
+.foot span {
+    border-top: 2px solid floralwhite;
+    padding-top: 2%;
+}
+footer p {
+    font-family: inconsolata;
+    color:floralwhite;
+    text-align:center;
+}

@@ -1,0 +1,935 @@
+body {
+    display:flex;
+    flex-direction: column;
+    align-content: center;
+    background-color: #FFFFFF;
+    margin: 0 auto;
+    padding: 0;
+    max-width: 1200px;
+}
+h3 {
+    font-family: inconsolata;
+}
+p {
+    font-family: Fira Sans;
+}
+.first {
+    margin-left: 10%;
+}
+
+/*Title*/
+.title {
+    font-family: inconsolata;
+    font-size: 14px;
+    letter-spacing: .15em;
+    width: 100%;
+    line-height: 30px;
+    margin-top: 10%;
+    display: inline-flex;
+}
+.title h3 {
+    
+}
+.title span {
+    border-bottom: 2px solid #3E606F;
+}
+
+/*List*/
+.list li {
+    list-style: none;
+}
+.list  {
+    display: inline;
+    line-height: 2em;
+    font-size: 12px;
+    list-style: none;
+    padding-left:10%;
+    margin-top: 10%;
+    padding-right: 5%;
+}
+.list a {
+    text-decoration: none;
+}
+.list a:visited {
+    color:black;
+}
+.list a:hover{
+    color: crimson;
+}
+.first p {
+    margin-top: 2%;
+    font-size: 12px;
+    letter-spacing: 1px;
+}
+.kodak {
+    cursor: pointer;
+    transiton: .3s ease;
+}
+.kodak:hover {
+    border-bottom: 1px solid black;
+    color: crimson;
+/*Screen 1 + Description 1*/
+}
+.interactionuno {
+    margin-top: 5%;
+    margin-left: 5%;
+    border-left: 3px solid #FFFFFF;
+    padding-left: 40px;
+    transition: 1s ease; 
+}
+.interactionuno:hover {
+   border-left: 3px solid #F0F0F0; 
+} 
+.circle {
+    background-color: #474143;
+    width: 40px;
+    height: 40px;
+    border-radius: 2em;
+    margin-bottom: 30px;
+}
+.circle p {
+    color: #FCFFF5;
+    text-align: center;
+    font-size: 30px;
+}
+.order {
+    margin-top: 1%;
+}
+/*Phone 1 Design*/
+.phone {
+   background-color:#3E606F;
+    width: 200px;
+    height: 433px;
+    border-radius:2em;
+    overflow: visible;
+}
+.screen { 
+    background-color:#ABC8E2;
+    width: 200px;
+    height: 350px;
+    margin: 0 auto; 
+    margin-top: 1%;
+    overflow: visible;   
+}
+.dots{
+    display: flex;
+    justify-content: center;
+}
+.bottom-button {
+   background-color:#183152;
+   height: 25px;
+   width: 25px;
+   border-radius: 3em;
+   margin: 0 auto;
+   margin-top: 3%;     
+}
+
+.top-button {
+    display: inline-block;
+    background-color: #183152;
+    height: 10px;
+    width: 10px;
+    border-radius: 3em;
+    margin-top: 5%;
+    margin-left: 35%;
+    overflow: visible;
+}
+.top-buttonn {
+    display: inline-block;
+    background-color: #183152;
+    height: 4px;
+    width: 50px;
+    margin: 0 auto;
+    border-radius: 3em;
+    margin-left: 2%;
+    
+}
+.reduno {
+ 
+    background-color: #E74C3C;
+    height: 10px;
+    width: 10px;
+    border-radius: 3em;
+    overflow: visible;
+    margin-top: 160%; 
+   
+}
+.reddos {
+    display: block;
+    background-color: #E74C3C;
+    height: 10px;
+    width: 10px;
+    border-radius: 3em;
+    margin-top: 160%; 
+     margin-left: 3%;
+   
+}
+.redtres {
+  
+    background-color: #E74C3C;
+    height: 10px;
+    width: 10px;
+    border-radius: 3em;
+    margin-top: 160%;
+    margin-left: 3%;
+}
+/*describe*/
+.describe {
+    margin-left: 5%;
+}
+.describe h3 {
+    font-family: Inconsolata 400; 
+    letter-spacing: 2px;
+}
+.describe p {
+    line-height: 25px;
+    letter-spacing: 2px;
+    font-size: 12px;
+    width: 75%;
+} 
+.describe h5 {
+    font-family: inconsolata;
+    padding-bottom: 5px;
+}
+.describe span {
+    border-bottom: solid 2px black; 
+}
+.container {
+    display: flex;
+    width: 100%;
+    height: 100%;
+    overflow: visible;   
+}
+
+/*Screen 2 + Description 2*/
+.interactiondos {
+    margin-top: 5%;
+    margin-left: 5%;
+    border-left: 3px solid #FFFFFF;
+    padding-left: 40px;
+    transition: 1s ease;
+}
+.interactiondos:hover {
+   border-left: 3px solid #F0F0F0; 
+} 
+.circle {
+    background-color: #474143;
+    width: 40px;
+    height: 40px;
+    border-radius: 2em;
+    margin-bottom: 30px;
+}
+.circle p {
+    color: #FCFFF5;
+    text-align: center;
+    font-size: 30px;
+}
+.order {
+    margin-top: 1%;
+}
+/*Phone 2 Design*/
+.phonedos {
+   background-color:#BA5B22;
+    width: 200px;
+    height: 433px;
+    border-radius:2em;
+    overflow: visible;
+}
+.screendos { 
+    background-color:#013C4C;
+    width: 200px;
+    height: 350px;
+    margin: 0 auto; 
+    margin-top: 1%;
+    overflow: hidden;   
+}
+.dotsdos{
+    display: flex;
+    justify-content: center;
+}
+.bottom-buttondos {
+   background-color:#FAD46B;
+   height: 25px;
+   width: 25px;
+   border-radius: 3em;
+   margin: 0 auto;
+   margin-top: 3%;     
+}
+
+.top-buttondos {
+    display: inline-block;
+    background-color: #FAD46B;
+    height: 10px;
+    width: 10px;
+    border-radius: 3em;
+    margin-top: 5%;
+    margin-left: 35%;
+    overflow: visible;
+}
+.top-buttonndos {
+    display: inline-block;
+    background-color: #FAD46B;
+    height: 4px;
+    width: 50px;
+    margin: 0 auto;
+    border-radius: 3em;
+    margin-left: 2%;
+    
+}
+.bokehuno {
+ 
+    background-color: #FAD46B;
+    height: 45px;
+    width: 45px;
+    border-radius: 70em;
+    overflow: visible;
+    margin-top: 80%;
+    opacity: .8;
+   
+}
+.bokehdos {
+    display: block;
+    background-color: #F0B650;
+    height: 35px;
+    width: 35px;
+    border-radius: 90em;
+    margin-top: 20%; 
+    margin-left: 3%;
+    opacity: .8;
+   
+}
+.bokehtres {
+    background-color: #DB913C;
+    height: 30px;
+    width: 30px;
+    border-radius: 3em;
+    margin-top: 100%;
+    margin-left: 3%;
+    opacity: .7;
+}
+.bokehquatro {
+    background-color: #BA5B22;
+    height: 25px;
+    width: 25px;
+    border-radius: 3em;
+    margin-top: 150%;
+    margin-left: 3%;
+    opacity: .8;
+}
+.bokehcinco {
+    background-color: #FAD46B;
+    height: 25px;
+    width: 25px;
+    border-radius: 3em;
+    margin-top: 90%;
+    margin-left: 3%;
+    opacity: .8;
+}
+.bokehsies {
+    background-color: #BA5B22;
+    height: 15px;
+    width: 15px;
+    border-radius: 3em;
+    margin-top: 60%;
+    margin-left: 3%;
+    opacity: .8;
+}
+
+/*describe*/
+.describe {
+    margin-left: 5%;
+}
+.describe h3 {
+    font-family: Inconsolata 400; 
+    letter-spacing: 2px;
+}
+.describe p {
+    line-height: 25px;
+    letter-spacing: 2px;
+    font-size: 12px;
+    width: 75%;
+} 
+.describe h5 {
+    font-family: inconsolata;
+    padding-bottom: 5px;
+}
+.describe span {
+    border-bottom: solid 2px black; 
+}
+.container {
+    display: flex;
+    width: 100%;
+    height: 100%;
+    overflow: visible;   
+}
+/*Screen 3 + Description 3*/
+.interactiontres {
+    margin-top: 5%;
+    margin-left: 5%;
+    border-left: 3px solid #FFFFFF;
+    padding-left: 40px;
+    transition: 1s ease;
+}
+.interactiontres:hover {
+   border-left: 3px solid #F0F0F0; 
+} 
+.circle {
+    background-color: #474143;
+    width: 40px;
+    height: 40px;
+    border-radius: 2em;
+    margin-bottom: 30px;
+}
+.circle p {
+    color: #FCFFF5;
+    text-align: center;
+    font-size: 30px;
+}
+.order {
+    margin-top: 1%;
+}
+/*Phone 3 Design*/
+.phonetres {
+   background-color:#8C7F77;
+    width: 200px;
+    height: 433px;
+    border-radius:2em;
+    overflow: visible;
+}
+.screentres { 
+    background-color:#93B7BF;
+    width: 200px;
+    height: 350px;
+    margin: 0 auto; 
+    margin-top: 1%;
+    overflow: hidden;   
+}
+.dotsdos{
+    display: flex;
+    justify-content: center;
+}
+.bottom-buttontres {
+   background-color:#183152;
+   height: 25px;
+   width: 25px;
+   border-radius: 3em;
+   margin: 0 auto;
+   margin-top: 3%;     
+}
+
+.top-buttondos {
+    display: inline-block;
+    background-color: #FAD46B;
+    height: 10px;
+    width: 10px;
+    border-radius: 3em;
+    margin-top: 5%;
+    margin-left: 35%;
+    overflow: visible;
+}
+.top-buttonndos {
+    display: inline-block;
+    background-color: #FAD46B;
+    height: 4px;
+    width: 50px;
+    margin: 0 auto;
+    border-radius: 3em;
+    margin-left: 2%;
+    
+}
+.fadeuno {
+ 
+    background-color: #F2DFA7;
+    height: 20px;
+    width: 20px;
+    border-radius: 70em;
+    overflow: visible;
+    margin-top: 80%;
+  
+   
+}
+.fadedos {
+    display: block;
+    background-color: #BFAB99;
+    height: 30px;
+    width: 30px;
+    border-radius: 90em;
+    margin-top: 20%; 
+    margin-left: ;
+    
+   
+}
+.fadetres {
+    background-color: #D77A80;
+    height: 20px;
+    width: 20px;
+    border-radius: 3em;
+    margin-top: 150%;
+    margin-left: %; 
+}
+.fadequatro {
+    background-color: #AC7183;
+    height: 25px;
+    width: 25px;
+    border-radius: 3em;
+    margin-top: 50%;
+    margin-left: ; 
+}
+.fadecinco {
+    background-color: #435D7B;
+    height: 25px;
+    width: 25px;
+    border-radius: 3em;
+    margin-top: 110%;
+    margin-left: ; 
+}
+.fadesies {
+    background-color: #435D7B;
+    height: 20px;
+    width: 20px;
+    border-radius: 3em;
+    margin-top: 20%;
+    margin-left: %; 
+}
+
+
+/*describe*/
+.describe {
+    margin-left: 5%;
+}
+.describe h3 {
+    font-family: Inconsolata 400; 
+    letter-spacing: 2px;
+}
+.describe p {
+    line-height: 25px;
+    letter-spacing: 2px;
+    font-size: 12px;
+    width: 75%;
+} 
+.describe h5 {
+    font-family: inconsolata;
+    padding-bottom: 5px;
+}
+.describe span {
+    border-bottom: solid 2px black; 
+}
+.container {
+    display: flex;
+    width: 100%;
+    height: 100%;
+    overflow: visible;   
+}
+/*Footer*/
+footer {
+    display: ;
+    width: 100%;
+    margin-top: 10%;
+    margin-bottom: %;
+    
+    
+}
+footer span {
+    border-top: 5px solid black;
+    width: 25px;
+    padding-top: 10px; 
+   
+}
+footer h6 {
+    display: ;
+    width: 
+    margin-left: 6%;
+    font-family: Fira Sans;
+    letter-spacing: 1px;
+    margin-top: 30px;
+    margin-bottom: 10px;
+    line-height: 1.5em;
+    text-align: center;
+}
+.link {
+    width: 100%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    font-family: inconsolata;
+    font-size: 14px;
+    text-align: center;
+}
+.link a {
+    text-decoration: none;
+    
+}
+.link a:visited {
+    color: black;
+}
+.link1 {
+    border-right: 1px solid black;
+    padding-right:5px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+/*modaluno-kodak*/
+.modaluno {
+    position: fixed;
+    left: 0;
+    right: ;
+    height: 100%;
+    width: 100%;
+    background-color: #FF6138;
+    z-index: 1; 
+    visibility: hidden;
+    font-family: inconsolata;   
+}
+.modaluno img {
+    width: 3%;
+    margin-left: ;
+    margin-top: ;
+    transition: .1s ease;
+}
+
+.modaluno h1 {
+    margin-left: 3%;
+    margin-top: 8%;
+    font-size: 42px;
+    width: 100%;
+    max-width: 1000px;
+    line-height: 55px;
+    
+}
+
+/*animations phone 1*/
+.title h3 {
+    animation: title 2.5s ease;
+}
+.phone {
+    animation: phone .5s ease;
+}
+.screen {
+    animation: screen 1s ease;
+}
+.bottom-button {
+    animation: bottom-button 1s;
+}
+.top-button {
+    animation: topbutton 1s;   
+}
+.top-buttonn {
+    animation: topbuttonn 1.5s;   
+}
+.reduno {
+    animation: reduno 1.5s ease-in-out infinite;
+}
+.reddos {
+    animation: reduno 1.5s ease-in-out infinite;
+}
+.redtres {
+    animation: reduno 1.5s ease-in-out infinite;
+}
+/*animation phone 2*/
+.phonedos {
+    animation: phone .5s ease;
+}
+.screendos {
+    animation: screen 1s ease;
+}
+.bottom-buttondos {
+    animation: bottom-button 1s;
+}
+.top-buttondos {
+    animation: topbutton 1s;
+}
+.top-buttonndos {
+    animation: topbuttonn 1.5s; 
+}
+
+.bokehuno {
+    animation: bokehuno 8s linear infinite;
+}
+.bokehdos {
+    animation: bokehdos 8s linear infinite;
+}
+.bokehtres{
+    animation: bokehtres 8s linear infinite;
+}
+.bokehquatro {
+    animation: bokehquatro 8s linear infinite;
+}
+.bokehcinco {
+    animation: bokehcinco 8s linear infinite;
+}
+.bokehsies {
+    animation: bokehsies 8s linear infinite;
+}
+/*animation phone 3*/
+.phonetres {
+    animation: phone .5s ease;
+}
+.screentres {
+    animation: screen 1s ease;
+}
+.bottom-buttontres {
+     animation: bottom-button 1s;
+}
+.fadeuno {
+    animation: fadeuno 1s  ease-in infinite;
+}
+.fadedos {
+    animation: fadedos 1s  ease-in infinite;
+}
+.fadetres {
+    animation: fadetres 1s  ease-in infinite;
+}
+.fadequatro {
+    animation: fadequatro 1s  ease-in infinite;
+}
+.fadecinco {
+    animation: fadecinco 1s  ease-in infinite;
+}
+.fadesies {
+    animation: fadesies 1s  ease-in infinite;
+}
+
+/*keyframes*/
+
+@keyframes title {
+    0% {
+        opacity: 0;  
+    }
+    100% {
+        opacity: 1;
+    }
+} 
+
+@keyframes phone  {
+    0%   { 
+        width: 0px; 
+        height: 0px; 
+        opacity: 0; 
+    }
+    100% { 
+        width: px; 
+        height: px; 
+        opacity: 1;
+    }
+}
+
+@keyframes screen {
+    0% {
+        width: 0px;
+        height: 0px;
+        opacity: 0;
+    }
+    100% {
+        width: px;
+        height: px;
+        opacity: 1;     
+    }
+}
+
+@keyframes bottom-button {
+    0% { width: 0px;
+         height: 0px;
+         opacity: 0;
+        
+    }
+    100% {
+        height: px;
+        width: px;
+        opacity: 1;
+    }
+        
+}
+@keyframes topbutton {
+    0% {
+        height: 0px;
+        width: 0px;
+        opacity: 0;    
+    }
+    100% {
+         height: px;
+         width: px;
+         opacity: 1;  
+    }
+}
+@keyframes topbuttonn {
+    0% {
+        height:0px;
+        width: 0px;
+        opacity:0;
+    }
+    100% {
+        height: px;
+        width: px;
+        opacity: 1;
+    }
+}
+@keyframes reduno {
+    0% {
+        opacity: 0;
+        
+    }
+    100% {
+        opacity: 1;
+    }
+}
+@keyframes reddos {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+@keyframes redtres {
+    0%{
+      opacity: 0;  
+    }
+    100% {
+      opacity: 1;
+    }
+}
+@keyframes bokehuno {
+    0%   {}
+    25% {
+        transform: translate(-50px, -30px);
+    }
+    50% {
+        transform: translate(50px, -35px);
+    }
+    75% {
+        transform: translate(-45px, -20px);
+    }
+    100% {}
+} 
+@keyframes bokehdos {
+     0%   {}
+    25% {
+        transform: translate(25px, -50px);
+    }
+    50% {
+        transform: translate(-60px, 30px);
+    }
+    75% {
+        transform: translate(-55px, -20px);
+    }
+    100% {}
+} 
+@keyframes bokehtres {
+     0%   {}
+    25% {
+        transform: translate(35px, -60px);
+    }
+    50% {
+        transform: translate(-40px, -10px);
+    }
+    75% {
+        transform: translate(-50px, -30px);
+    }
+    100% {}
+} 
+@keyframes bokehquatro {
+    0%   {}
+    25%  {
+        transform: translate(-65px, -60px);
+}
+    50%  {
+        transform: translate(-40px, -10px);
+    }
+    75%  {
+        transform: translate(65px, -50px);
+    }
+    100% {}
+}
+@keyframes bokehcinco {
+    0%   {}
+    25%  {
+        transform: translate(-65px, -60px);
+}
+    50%  {
+        transform: translate(-50px, -30px);
+    }
+    75%  {
+        transform: translate(85px, -50px);
+    }
+    100% {}
+}
+@keyframes bokehsies {
+    0%   {}
+    25%  {
+        transform: translate(-35px, 40px);
+}
+    50%  {
+        transform: translate(20px, -55px);
+    }
+    75%  {
+        transform: translate(35px, -60px);
+    }
+    100% {}
+}
+@keyframes fadeuno {
+    0%   {}
+    80%  {
+        opacity: 0;
+        width: 30px;
+        height: 30px;
+    }
+    100% {
+        opacity: 0;
+    }
+}
+@keyframes fadedos {
+    0%   {}
+    80%  {
+        opacity: 0;
+        width: 30px;
+        height: 30px;
+    }
+    100% {
+        opacity: 0;
+    }
+}
+@keyframes fadetres {
+    0%   {}
+    80%  {
+        opacity: 0;
+        width: 30px;
+        height: 30px;
+    }
+    100% {
+        opacity: 0;
+    }
+}
+@keyframes fadequatro {
+   0%   {}
+    80%  {
+        opacity: 0;
+        width: 30px;
+        height: 30px;
+    }
+    100% {
+        opacity: 0;
+    }
+}
+@keyframes fadecinco {
+    0%   {}
+    80%  {
+        opacity: 0;
+        width: 30px;
+        height: 30px;
+    }
+    100% {
+        opacity: 0;
+    }
+}
+@keyframes fadesies {
+    0%   {}
+    80%  {
+        opacity: 0;
+        width: 30px;
+        height: 30px;
+    }
+    100% {
+        opacity: 0;
+    }
+}
+
+
